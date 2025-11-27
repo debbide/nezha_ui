@@ -117,8 +117,8 @@ Nezha-Dash-UI/
 
 ```html
 <!-- 只引入访客信息和音乐播放器 -->
-<script src="https://cdn.jsdelivr.net/gh/kamanfaiz/Nezha-Dash-UI@main/js/visitor-info.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/kamanfaiz/Nezha-Dash-UI@main/js/music-player.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/debbide/nezha_ui@master/js/visitor-info.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/debbide/nezha_ui@master/js/music-player.js"></script>
 ```
 
 ## ⚙️ 配置说明
@@ -302,12 +302,12 @@ window.MusicPlayerExpandedAlbumSize = 70;            // 展开面板唱片尺寸
 ### CDN 缓存更新
 如果更新了代码但 CDN 没有刷新，可以手动清除缓存：
 ```
-https://purge.jsdelivr.net/gh/kamanfaiz/Nezha-Dash-UI@main/js/模块名.js
+https://purge.jsdelivr.net/gh/debbide/nezha_ui@master/js/模块名.js
 ```
 
 或在引入时添加版本号：
 ```html
-<script src="https://cdn.jsdelivr.net/gh/kamanfaiz/Nezha-Dash-UI@main/js/music-player.js?v=20250128"></script>
+<script src="https://cdn.jsdelivr.net/gh/debbide/nezha_ui@master/js/music-player.js?v=20250128"></script>
 ```
 
 **💡 进阶方案：使用 Cloudflare R2 存储桶**
