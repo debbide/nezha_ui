@@ -2,15 +2,29 @@
 
 # Nezha-Dash-UI
 
-[![GitHub](https://img.shields.io/badge/GitHub-kamanfaiz%2FNezha--Dash--UI-blue?logo=github)](https://github.com/kamanfaiz/Nezha-Dash-UI)
+[![GitHub](https://img.shields.io/badge/GitHub-debbide%2Fnezha__ui-blue?logo=github)](https://github.com/debbide/nezha_ui)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Original](https://img.shields.io/badge/Original-kamanfaiz%2FNezha--Dash--UI-orange?logo=github)](https://github.com/kamanfaiz/Nezha-Dash-UI)
 
 </div>
 
+> **⚠️ 重要声明**
+>
+> 本仓库是基于 [kamanfaiz/Nezha-Dash-UI](https://github.com/kamanfaiz/Nezha-Dash-UI) 的个人修改版本，仅供个人使用和学习。
+>
+> **🎯 强烈推荐使用原作者的官方仓库：**
+> https://github.com/kamanfaiz/Nezha-Dash-UI
+>
+> 原作者版本功能更完善、更新更及时，并有完善的社区支持。本仓库仅用于个人定制化需求。
+>
+> 感谢原作者 [@kamanfaiz](https://github.com/kamanfaiz) 的精彩工作！
+
+---
+
 哪吒v1前端面板美化脚本的模块化版本，将不同功能拆分成独立的 JS 文件，通过`<script src=>`标签统一调用，可以根据自己喜好和需求自由组合搭配，分模块设计也便于按需加载和维护。
 
-> **📢 声明**  
-> * 本人只是出于个人爱好进行开发，本人审美不代表全部，欢迎各位根据自己的需求进行魔改和自定义，让项目更符合你的使用场景！
+> **📢 使用说明**
+> * 本仓库基于个人需求进行了部分修改（如音乐播放器位置调整等）
 > * 目前仓库是通过jsdelivr cdn缓存来调用的，所以对于容器类或者质量不太好的小鸡可能存在加载慢的问题，请自行组合使用。
 > * 有条件者可以将代码放到自己的CloudFlare R2存储桶中，因为jsdelivr cdn的缓存时间过长，有时候改完代码，可能需要很久才会刷新！
 
@@ -347,9 +361,11 @@ window.ForceTheme = "dark"; // 或 "light"
 
 - 感谢 [哪吒监控](https://github.com/naiba/nezha) 提供的优秀监控面板
 - 感谢 [eooce](https://github.com/eooce) 提供的音乐播放器 API 方案
+- 特别感谢原作者 [kamanfaiz](https://github.com/kamanfaiz) 开发了 [Nezha-Dash-UI](https://github.com/kamanfaiz/Nezha-Dash-UI) 项目，本仓库基于其进行个人定制化修改
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/kamanfaiz">kamanfaiz</a></sub>
+  <sub>基于 <a href="https://github.com/kamanfaiz/Nezha-Dash-UI">kamanfaiz/Nezha-Dash-UI</a> 的个人修改版</sub><br>
+  <sub>Modified by <a href="https://github.com/debbide">debbide</a> | Original by <a href="https://github.com/kamanfaiz">kamanfaiz</a></sub>
 </div>
